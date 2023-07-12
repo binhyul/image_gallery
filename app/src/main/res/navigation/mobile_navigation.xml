@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_gallery">
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.binhyul.image_gallery.ui.image.gallery.GalleryFragment"
+        android:label="@string/title_gallery"
+        tools:layout="@layout/frag_image_gallery">
+        <action
+            android:id="@+id/action_navigation_gallery_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_horizontal"
+        android:name="com.binhyul.image_gallery.ui.image.horizontal.HorizontalGalleryFragment"
+        android:label="@string/title_horizontal"
+        tools:layout="@layout/frag_image_horizontal">
+        <action
+            android:id="@+id/action_navigation_horizontal_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.binhyul.image_gallery.ui.image.detail.DetailFragment"
+        android:label="@string/detail_title">
+        <argument
+            android:name="model"
+            app:argType="com.binhyul.image_gallery.domain.model.ImageModel" />
+    </fragment>
+
+</navigation>

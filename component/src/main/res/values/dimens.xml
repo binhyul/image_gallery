@@ -1,0 +1,10 @@
+<resources>
+
+    <!--  Image Card -->
+    <dimen name="image_card_like_icon_size">24dp</dimen>
+    <dimen name="image_card_like_icon_padding">3dp</dimen>
+
+    <!-- Loading -->
+    <dimen name="loading_icon_size">48dp</dimen>
+
+</resources>

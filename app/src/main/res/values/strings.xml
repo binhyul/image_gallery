@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">image-gallery</string>
+    <string name="gallery_title">목록</string>
+    <string name="detail_title">상세</string>
+    <string name="error_message">오류가 발생했습니다.</string>
+    <string name="upload_date">%1$s 에 게시됨</string>
+    <string name="title_gallery">gallery</string>
+    <string name="title_horizontal">horizontal</string>
+</resources>

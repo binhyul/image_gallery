@@ -1,0 +1,8 @@
+<resources>
+    <!--  Global  -->
+    <dimen name="page_margin">20dp</dimen>
+
+
+    <!-- Detail -->
+    <dimen name="user_thumbnail_size">48dp</dimen>
+</resources>
